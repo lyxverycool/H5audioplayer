@@ -229,7 +229,7 @@
 
 /* 主页 */
 .index{
-
+  overflow:hidden;
 }
 .index .g-header{
   position: fixed;
@@ -318,16 +318,6 @@
 .index .m-nav .nav.active{
     background-color: #4ba292;
 }
-.index .m-nav .list{
-
-}
-.index .m-nav .love{
-
-}
-.index .m-nav .search{
-
-}
-
 
 .index .g-songlist{
   position: relative;
@@ -345,7 +335,7 @@
   overflow-x:hidden;   // 滑动容器，定义该属性的容器用于滑动
   height: auto;
   float: left;
-  height: calc(100vh - 2.76rem);
+  height: calc(100vh - 1.78rem);
   -webkit-overflow-scrolling: touch;  // 让局部滚动成为全局滚动
 }
 
